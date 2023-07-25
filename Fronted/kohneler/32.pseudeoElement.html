@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Pseudo Element</title>
+    <style>
+        .para1 {
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+
+        /*  .para1::first-line {
+            color: brown;
+        }
+        .para1::first-letter{
+            color: blue;
+            font-size: 50px;
+        } */
+        .para1::after {
+            content: url(images/maraqli-sekiller.com_16fd1163d837c4007d8441431280.jpg);
+
+        }
+
+        .para1::before {
+            content: "Paraqraf oncesi";
+        }
+    </style>
+</head>
+
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sed optio magni sunt? Praesentium
+        aspernatur natus illo perspiciatis vel. Itaque enim aliquid, consequatur assumenda quibusdam totam tempora aut
+        quidem fuga at ipsam fugiat eaque eum! Facilis repellat, delectus corrupti pariatur at, voluptates laborum
+        consectetur dolorum temporibus quisquam fugit distinctio? Autem hic totam nisi eius, inventore facilis culpa
+        dignissimos dolorum ipsa accusantium excepturi repellendus eos labore odit veritatis quas explicabo velit minima
+        corporis enim? Reiciendis iste debitis, deleniti aliquam sed architecto eveniet quas reprehenderit voluptatem
+        quasi facilis excepturi dolore cupiditate? Rem voluptate aspernatur maiores deserunt, perferendis facere rerum
+        deleniti quas cumque.</p>
+</body>
+
+</html>

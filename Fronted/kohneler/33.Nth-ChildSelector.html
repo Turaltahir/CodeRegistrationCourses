@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Nth-Child Selector</title>
+    <style>
+        /*   p:first-child {
+            background: greenyellow;
+        }
+
+        p:last-child {
+            background: green;
+        }
+
+        p:nth-child(1) {
+            color: red;
+        }
+
+        p:nth-child(3) {
+            color: blueviolet;
+        } */
+        /*   p:nth-child(even){
+            color: yellow;
+        }
+        p:nth-child(odd){
+            color: olive;
+        } */
+        p {
+            font-size: 1.5em;
+        }
+
+        ul {
+            font-size: 1.5em;
+            list-style-type: none;
+        }
+
+        ul li:nth-child(2n) {
+            color: yellowgreen;
+        }
+
+        ul li:nth-child(2n+1) {
+            color: blueviolet;
+        }
+
+        ul li:nth-child(n+4) {
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, tempore.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, tempore.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, tempore.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, tempore.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, tempore.
+    </p> -->
+    <ul>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+    </ul>
+</body>
+
+</html>
